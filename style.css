@@ -331,35 +331,54 @@
     display: none;
 }
 
-@media (max-width: 650px){
-    .cardapio-pc{
-        display: none;
-    }
-    .cardapio-cell{
+.cardapio{
+    display: flex;
+    font-family: 'GlaRegular';
+    
+}
+.cardapio-side{
+    width: 50%;
+    padding: 1vw 3vw 0;
+    margin-bottom: 50px;
+}
+.cardapio-title{
+    font-size: 44px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.cardapio-information{
+    margin-top: 20px;
+    border-bottom: #2d2d2d 3px solid;
+}
+.cardapio-produto{
+    font-size: 27px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.cardapio-desc{
+    margin: 5px 10px 20px 10px;
+    font-style: italic;
+    color: #380707b1;
+}
+.body-cardapio::selection{
+    background-color: #000000fd;
+}
+.cardapi-logo{
+    font-size: 32px;
+}
+@media (max-width: 750px){
+    .cardapio{
         display: block;
     }
-}
-.cardapio-pc{
-    display: block;
-    margin: 0px;
-}
-.cardapio-cell{
-    display: none;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    background-color: #2d2120;
-}
-.cardapio-cell img{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-}
-@media (max-width: 650px){
-    .cardapio-pc{
-        display: none;
+    .cardapio-side{
+        margin: auto;
+        width: 90%;
+        padding: 5px;
+        margin-bottom: 0px;
     }
-    .cardapio-cell{
-        display: block;
+    .cardapio-side:last-child{
+        margin-bottom: 50px;
     }
 }
