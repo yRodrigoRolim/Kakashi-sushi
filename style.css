@@ -357,6 +357,15 @@
     justify-content: space-between;
     margin-bottom: 15px;
 }
+.cardapio-values{
+    font-size: 27px;
+    display: flex;
+    align-items: top;
+    margin-bottom: 15px;
+}
+.cardapio-values p{
+    margin-left: 10px;
+}
 .cardapio-desc{
     margin: 5px 10px 20px 10px;
     font-style: italic;
