@@ -381,6 +381,9 @@
     .cardapio{
         display: block;
     }
+    .cardapio-information{
+        border-bottom: #2d2d2d 2px solid;
+    }
     .cardapio-side{
         margin: auto;
         width: 90%;
@@ -389,5 +392,8 @@
     }
     .cardapio-side:last-child{
         margin-bottom: 50px;
+    }
+    .cardapio-produto,.cardapio-values{
+        font-size: 20px;
     }
 }
